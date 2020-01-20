@@ -1,7 +1,11 @@
-h1{
-    color: hsl(197, 100%, 21%);
+p {
+    color: orangered;
+    margin: 10px;
 }
-
-P {
-    color: hsl(180, 100%, 25%);
+h1 {
+    color: orange;
+    margin: 10px;
+}
+img {
+    margin: 10px;
 }
