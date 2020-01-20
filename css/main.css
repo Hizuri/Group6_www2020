@@ -2,7 +2,7 @@ h1{
     color: hsl(200, 100%, 21%);
 }
 h2{
-    color: hsl(185, 100%, 21%);
+    color: hsl(202, 100%, 21%);
 }
 
 P {
@@ -13,4 +13,16 @@ P {
 
 P {
     color: hsl(180, 100%, 25%);
+}
+header > h1{
+    text-align: center;
+    background-color:  hsl(200, 56%, 38%);
+    padding: 30px;
+}
+nav > div{
+    line-height: 30px;
+    font-size: 22px;
+}
+body{
+    background-color: orange;
 }
