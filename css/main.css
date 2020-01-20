@@ -25,4 +25,14 @@ nav > div{
 }
 body{
     background-color: orange;
+p {
+    color: orangered;
+    margin: 10px;
+}
+h1 {
+    color: orange;
+    margin: 10px;
+}
+img {
+    margin: 10px;
 }
