@@ -90,7 +90,7 @@
 
 .aseta3
 {
-    transform: scale(0.8) rotateY(180deg);
+    transform: scale(0.8) rotateX(180deg);
     filter: blur(1px);
 
 }
