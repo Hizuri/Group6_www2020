@@ -84,7 +84,15 @@
 
 .aseta2
 {
-    transform: scale(2) rotate(180deg);
+    transform: scale(2) rotateY(180deg);
+    filter: blur(1px);
+}
+
+.aseta3
+{
+    transform: scale(0.8) rotateY(180deg);
+    filter: blur(1px);
+
 }
 
 section {
