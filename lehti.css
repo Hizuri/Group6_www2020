@@ -24,67 +24,67 @@
 }
 .aseta div:nth-child(3)
 {
-    left: 15%;
+    left: 20%;
     animation: animate 10s linear infinite;
 }
 .aseta div:nth-child(4)
 {
-    left: 25%;
+    left: 30%;
     animation: animate 45s linear infinite;
 }
 .aseta div:nth-child(5)
 {
-    left: 30%;
+    left: 35%;
     animation: animate 12s linear infinite;
 }
 .aseta div:nth-child(6)
 {
-    left: 35%;
+    left: 40%;
     animation: animate 20s linear infinite;
 }
 .aseta div:nth-child(7)
 {
-    left: 65%;
+    left: 45%;
     animation: animate 18s linear infinite;
 }
 .aseta div:nth-child(7)
 {
-    left: 70%;
+    left: 50%;
     animation: animate 15s linear infinite;
     
 }
 .aseta div:nth-child(8)
 {
-    left: 75%;
+    left: 58%;
     animation: animate 12s linear infinite;
    
 }
 .aseta div:nth-child(9)
 {
-    left: 80%;
+    left: 65%;
     animation: animate 10s linear infinite;
 }
 .aseta div:nth-child(10)
 {
-    left: 90%;
+    left: 72%;
     animation: animate 15s linear infinite;
    
 }
 .aseta div:nth-child(11)
 {
-    left: 95%;
+    left: 80%;
     animation: animate 18s linear infinite;
 }
 .aseta div:nth-child(12)
 {
-    left: 5%;
+    left: 87%;
     animation: animate 20s linear infinite;
    
 }
 
 .aseta2
 {
-    transform: scale(2) rotateY(180deg);
+    transform: scale(0.5) rotateY(180deg);
     filter: blur(1px);
 }
 
@@ -137,6 +137,15 @@ section {
    
     100%
     {
-        top: 100%;
+        top: 80%;
     }
+}
+
+iframe :focus
+{
+    outline: none;
+}
+iframe [seamless]
+{
+    display: block;
 }
