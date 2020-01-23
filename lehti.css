@@ -85,7 +85,7 @@
 .aseta2
 {
     transform: scale(0.5) rotateY(180deg);
-    filter: blur(1px);
+    filter: blur(2px);
 }
 
 .aseta3
