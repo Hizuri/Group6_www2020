@@ -2,7 +2,11 @@
     background-color: rgb(255, 221, 179);
 }
 p {
+<<<<<<< HEAD
+    color: rgb(0, 0, 0);
+=======
     color: rgb(95, 95, 95);
+>>>>>>> 92bc30203b2768e3e7e1b83f288987156c998860
     margin: 10px;
 }
 h1 {

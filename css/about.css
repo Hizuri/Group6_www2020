@@ -1,6 +1,6 @@
 .img12 {
-    width: 100%;
-    height: auto;    
+    width: 75%;
+    height: 75%;    
     padding: 5px;
 }
 .previous{
@@ -29,10 +29,10 @@
 }
   .column {
     float: right;
-    width: 23%;
+    width: 13%;
   }
   .maincolumn{
-    width: 75%;
+    width: 87%;
   }
   figcaption{
     text-align: center;
@@ -40,8 +40,16 @@
   }
   button{
     position: absolute;
-    top: 51%;
+    top: 33%;
   }
   figure{
     padding: 0 15px 15px;
+  }
+  table{
+    align-items: flex-end;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    margin-top: 140px;
+    height: auto;
   }
