@@ -6,6 +6,14 @@ h1 {
     color: orange;
     margin: 10px;
 }
+h2 {
+    color: orange;
+    margin: 5px;
+}
 img {
+    margin: 10px;
+}
+h5 {
+    color: rgb(196, 59, 10);
     margin: 10px;
 }
