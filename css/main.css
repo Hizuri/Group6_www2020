@@ -1,9 +1,17 @@
+.bg-navbar-orange {
+    background-color: rgb(255, 221, 179);
+}
 p {
+<<<<<<< HEAD
     color: rgb(0, 0, 0);
+=======
+    color: rgb(95, 95, 95);
+>>>>>>> 92bc30203b2768e3e7e1b83f288987156c998860
     margin: 10px;
 }
 h1 {
-    color: orange;
+    padding-top: 25px;
+    color: rgb(241, 23, 8);
     margin: 10px;
 }
 h2 {
@@ -16,4 +24,11 @@ img {
 h5 {
     color: rgb(196, 59, 10);
     margin: 10px;
+}
+figcaption {
+    margin-left: 20px;
+}
+footer {
+    padding: 10px;
+    background-color: rgb(255, 171, 60);
 }
