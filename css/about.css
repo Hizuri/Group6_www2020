@@ -1,16 +1,4 @@
 
-.flexbox{
-  align-items: flex-start;
-  display: flex;
-  justify-content: flex-start;
-  background-color: white;
-  height: 120px;
-  padding-top: 20px;
-  font-size: 11px;
-  border: 2px solid black;
-  max-width: 500px;
-  float: left;
-}
 .previous{
     background-color: #f1f1f1;
     color: black;
@@ -29,11 +17,12 @@
   }
   .column {
     float: right;
-    width: 15%;
+    width: 30%;
     height: auto;
+    max-width: 300px;
   }
   .maincolumn{
-    width: 80%;
+    width: 70%;
   }
   footer{
     border-top: 2px solid black;
@@ -46,17 +35,28 @@
   figure{
     padding: 0 15px 15px;
   }
-  table{
+  .table1{
+    background-color: white;
+    height: 120px;
+    font-size: 11px;
+    border: 2px solid black;
+    border-bottom: 0px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+  }
+  .table2{
     align-items: center;
     display: flex;
     justify-content: center;
     background-color: white;
-    height: 120px;
-    padding-top: 20px;
+    height: auto;
     font-size: 11px;
-    border: 2px solid black;
-    border-bottom: 0px;
-    border-right: 0px;
-    max-width: 500px;
-    float: right;
+    border: black 1px solid;
+    border-collapse: separate;
+    border-spacing: 30px 9px;
+    
   }
