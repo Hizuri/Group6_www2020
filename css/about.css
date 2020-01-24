@@ -1,7 +1,15 @@
-.img12 {
-    width: 75%;
-    height: 75%;    
-    padding: 5px;
+
+.flexbox{
+  align-items: flex-start;
+  display: flex;
+  justify-content: flex-start;
+  background-color: white;
+  height: 120px;
+  padding-top: 20px;
+  font-size: 11px;
+  border: 2px solid black;
+  max-width: 500px;
+  float: left;
 }
 .previous{
     background-color: #f1f1f1;
@@ -19,37 +27,36 @@
     text-align: center;
     float: right;
   }
-  footer {
-    clear: both;
-    position: relative;
-    height: 30px;
-    margin-top: -200px;
-    text-align: center;
-    border-top: 2px solid;
-}
   .column {
     float: right;
-    width: 13%;
+    width: 15%;
+    height: auto;
   }
   .maincolumn{
-    width: 87%;
+    width: 80%;
   }
-  figcaption{
-    text-align: center;
-    font-size: 15px;    
+  footer{
+    border-top: 2px solid black;
   }
   button{
-    position: absolute;
+    position: relative;
     top: 33%;
+    display: inline-block;
   }
   figure{
     padding: 0 15px 15px;
   }
   table{
-    align-items: flex-end;
+    align-items: center;
     display: flex;
     justify-content: center;
     background-color: white;
-    margin-top: 140px;
-    height: auto;
+    height: 120px;
+    padding-top: 20px;
+    font-size: 11px;
+    border: 2px solid black;
+    border-bottom: 0px;
+    border-right: 0px;
+    max-width: 500px;
+    float: right;
   }
