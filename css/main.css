@@ -1,9 +1,13 @@
+.bg-navbar-orange {
+    background-color: rgb(255, 221, 179);
+}
 p {
-    color: orangered;
+    color: rgb(95, 95, 95);
     margin: 10px;
 }
 h1 {
-    color: orange;
+    padding-top: 25px;
+    color: rgb(241, 23, 8);
     margin: 10px;
 }
 h2 {
@@ -19,4 +23,8 @@ h5 {
 }
 iframe{
     margin-top: 10px;
+
+footer {
+    padding: 10px;
+    background-color: rgb(255, 171, 60);
 }

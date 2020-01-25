@@ -1,8 +1,4 @@
-.img12 {
-    width: 100%;
-    height: auto;    
-    padding: 5px;
-}
+
 .previous{
     background-color: #f1f1f1;
     color: black;
@@ -19,29 +15,48 @@
     text-align: center;
     float: right;
   }
-  footer {
-    clear: both;
-    position: relative;
-    height: 30px;
-    margin-top: -200px;
-    text-align: center;
-    border-top: 2px solid;
-}
   .column {
     float: right;
-    width: 23%;
+    width: 30%;
+    height: auto;
+    max-width: 300px;
   }
   .maincolumn{
-    width: 75%;
+    width: 70%;
   }
-  figcaption{
-    text-align: center;
-    font-size: 15px;    
+  footer{
+    border-top: 2px solid black;
   }
   button{
-    position: absolute;
-    top: 51%;
+    position: relative;
+    top: 33%;
+    display: inline-block;
   }
   figure{
     padding: 0 15px 15px;
+  }
+  .table1{
+    background-color: white;
+    height: 120px;
+    font-size: 11px;
+    border: 2px solid black;
+    border-bottom: 0px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+  }
+  .table2{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    height: auto;
+    font-size: 11px;
+    border: black 1px solid;
+    border-collapse: separate;
+    border-spacing: 30px 9px;
+    
   }
