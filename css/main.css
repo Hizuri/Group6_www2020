@@ -1,5 +1,5 @@
 .bg-navbar-orange {
-    background-color: rgb(255, 221, 179);
+    background-color: rgb(255, 214, 163);
 }
 p {
     color: rgb(95, 95, 95);
@@ -23,7 +23,7 @@ h5 {
 }
 iframe{
     margin-top: 10px;
-
+}
 footer {
     padding: 10px;
     background-color: rgb(255, 171, 60);
