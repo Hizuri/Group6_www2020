@@ -61,6 +61,12 @@
     border-collapse: separate;
     border-spacing: 30px 9px; 
   }
+  .box {
+    float: right;
+    border: 2px solid black;
+    padding-left:5px;
+    width: auto;
+  }
   .box2{
     background-color: white;
     height: auto;
@@ -72,6 +78,6 @@
     align-items: center;
     width: 350px;
     text-align: center;
-    margin-top: 370px;
+    margin-top: 375px;
     float: right;
   }
