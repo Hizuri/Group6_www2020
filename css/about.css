@@ -1,37 +1,9 @@
-
-.previous{
-    background-color: #f1f1f1;
-    color: black;
-    padding: 4px 20px;
-    font-size: 23px;
-    text-align: center;    
-    float: left;
-  }
-  .next {
-    background-color: #f1f1f1;
-    color: black;
-    padding: 4px 20px;
-    font-size: 25px;
-    text-align: center;
-    float: right;
-  }
-  .column {
-    float: right;
-    width: 30%;
-    height: auto;
-    max-width: 300px;
-  }
   .maincolumn{
     width: 70%;
     text-align: center;
   }
   footer{
     border-top: 2px solid black;
-  }
-  button{
-    position: relative;
-    top: 33%;
-    display: inline-block;
   }
   figure{
     padding: 0 15px 15px;
@@ -67,17 +39,4 @@
     padding-left:5px;
     width: auto;
   }
-  .box2{
-    background-color: white;
-    height: 100px;
-    font-size: 11px;
-    border: 2px solid black;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: center;
-    align-items: center;
-    width: 350px;
-    text-align: center;
-    margin-top: 375px;
-    float: right;
-  }
+  
