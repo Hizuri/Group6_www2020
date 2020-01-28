@@ -11,11 +11,15 @@ h1 {
     margin: 10px;
 }
 h2 {
-    color: orange;
+    color: crimson;
     margin: 5px;
 }
 img {
     margin: 10px;
+}
+img.star {
+    margin: 0px;
+    height: 20px;
 }
 h5 {
     color: rgb(196, 59, 10);
@@ -27,4 +31,9 @@ iframe{
 footer {
     padding: 10px;
     background-color: rgb(255, 171, 60);
+}
+table, th, td {
+    border: 1px solid black;
+    width: 300px;
+    max-height: 30px;
 }
