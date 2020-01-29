@@ -1,0 +1,21 @@
+.wrap {
+    display: flex;
+  }
+  
+  .one {
+    width: 30%;
+  }
+  
+  .two {
+    width: 70%;
+  }
+  
+  @media (max-width: 767px) {
+    .wrap {
+      flex-direction: column-reverse;
+    }
+    .one,
+    .two {
+      width: auto;
+    }
+  }
