@@ -1,6 +1,9 @@
 .bg-navbar-orange {
     background-color: rgb(255, 214, 163);
 }
+a.navbar-brand:hover {
+    background-color: rgb(255, 231, 202);
+}
 p {
     color: rgb(95, 95, 95);
     margin: 10px;
