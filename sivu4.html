@@ -33,6 +33,25 @@
           <li class="nav-item">
             <input type="text" placeholder="Search...">
           </li>
+            
+            <li> <a class="login-trigger" href="#" data-target="#login" data-toggle="modal">Login</a>              
+              <div id="login" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                  
+                  <div class="modal-content" style="background-color:wheat;">
+                    <div class="modal-body">
+                      <button data-dismiss="modal" class="close">&times;</button>
+                      <h4>Login</h4>
+                      <form action="/action_page.php">
+                        <input type="text" name="username" class="username form-control" placeholder="Username"/>
+                        <input type="password" name="password" class="password form-control" placeholder="Password"/>
+                        <input class="btn login" style="background-color:#B05574;border:1px solid black;color:white" type="submit" value="Login" />
+                      </form>
+                    </div>
+                  </div>
+                </div>  
+              </div>
+            </form></li>
         </ul>
       </div>
         </nav>
@@ -117,7 +136,9 @@
         </p>     
     </div>
     
-    <footer style="display: inline-block; width: 100%;font-size:10px" >@Copyright Group 6 Travelling</footer>
+    <footer style="display: inline-block; width: 100%;font-size:10px" >@Copyright Group 6 Travelling
+      
+    </footer>
 
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
