@@ -4,6 +4,13 @@
 a.navbar-brand:hover {
     background-color: rgb(255, 231, 202);
 }
+.reviewContainer {
+    width: 275px;
+    margin: 10px;
+}
+.reviewContainer.input {
+    float: right;
+}
 p {
     color: rgb(95, 95, 95);
     margin: 10px;
@@ -16,6 +23,9 @@ h1 {
 h2 {
     color: crimson;
     margin: 5px;
+}
+h3 {
+    margin: 10px;
 }
 img {
     margin: 10px;
@@ -39,4 +49,8 @@ table, th, td {
     border: 1px solid black;
     width: 300px;
     max-height: 30px;
+}
+a
+{
+    color: black;
 }
