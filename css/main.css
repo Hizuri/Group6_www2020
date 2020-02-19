@@ -1,38 +1,56 @@
-h1{
-    color: hsl(200, 100%, 21%);
+.bg-navbar-orange {
+    background-color: rgb(255, 214, 163);
 }
-h2{
-    color: hsl(202, 100%, 21%);
+a.navbar-brand:hover {
+    background-color: rgb(255, 231, 202);
 }
-
-P {
-    color: hsl(170, 100%, 25%);
-    font-size: 16px;
-    color: hsl(197, 100%, 21%);
+.reviewContainer {
+    width: 275px;
+    margin: 10px;
 }
-
-P {
-    color: hsl(180, 100%, 25%);
+.reviewContainer.input {
+    float: right;
 }
-header > h1{
-    text-align: center;
-    background-color:  hsl(200, 56%, 38%);
-    padding: 30px;
-}
-nav > div{
-    line-height: 30px;
-    font-size: 22px;
-}
-body{
-    background-color: orange;
 p {
-    color: orangered;
+    color: rgb(95, 95, 95);
     margin: 10px;
 }
 h1 {
-    color: orange;
+    padding-top: 25px;
+    color: rgb(241, 23, 8);
+    margin: 10px;
+}
+h2 {
+    color: crimson;
+    margin: 5px;
+}
+h3 {
     margin: 10px;
 }
 img {
     margin: 10px;
+}
+img.star {
+    margin: 0px;
+    height: 20px;
+}
+h5 {
+    color: rgb(196, 59, 10);
+    margin: 10px;
+}
+iframe{
+    margin-top: 10px;
+}
+footer {
+    padding: 10px;
+    background-color: rgb(255, 171, 60);
+}
+table, th, td {
+    border: 1px solid black;
+    width: 300px;
+    max-height: 30px;
+}
+a
+{
+    color: black;
 }
