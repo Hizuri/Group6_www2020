@@ -9,6 +9,9 @@
     <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
 </head>
 <body style="background-color: rgb(240, 199, 138);max-width: 1200px; margin: auto;">
 <header>
@@ -48,7 +51,7 @@
 
 </div>
 
-<div class="reviewContainer">
+<div id="review" class="reviewContainer">
 <form action="./tallennaArvostelu.php" method="post">
 
   <label for="fname">First name:</label>
@@ -59,7 +62,7 @@
   <input style="float: right;" type="text" id="review" name="review"><br><br>
   <label for="fname">Rating(1-5):</label>
   <input style="float: right;" type="text" id="rating" name="rating"><br><br>
-  <input type="submit" name="ok" value="OK">
+  <input id="submit1" type="submit" name="ok" value="OK">
 
 </form>
 </div>
