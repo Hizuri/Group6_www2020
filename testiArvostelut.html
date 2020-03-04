@@ -14,16 +14,26 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 <body style="background-color: rgb(240, 199, 138);max-width: 1200px; margin: auto;">
-<h2> Delete review by id: </h2>
-<form action='./poista.php' method='post'>
-ID: <br>
-<input type='text' name='id' value=''> <br> <br>
-<input type='submit' name='ok' value='Delete review'>
-</form>
+
+<h2 style='border-bottom:5px solid  crimson; width: fit-content;'> All reviews </h2>
 <br>
 
 <div id='arvostelu' style:'padding: 0px'>
 </div>
+
+<script>
+$(document).ready(function(){
+	$.post("projektiKaikki.php",
+		{
+			id:0,
+		},
+		function(data,status){
+			$("#arvostelu").html(data);
+		});
+});
+
+</script>
+
 
 <footer style="font-size: 10px;">
     @Copyright Group 6 Travelling
